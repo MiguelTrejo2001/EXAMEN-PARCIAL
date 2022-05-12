@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/3c0bd07c85.js" crossorigin="anonymous"></script>
+    <title>EXAMEN PARCIAL</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="izquierda">
+            <div class="cajaI">
+                <h2 class=leter><strong>REGISTRO ESTUDIANTE</strong></h2>
+                <br>
+                <h3>Nombres:</h3>
+                <input type="text" id="nombre">
+                <h3>Sexo:</h3>
+                <form>
+                    <input type="radio" id="hombre" name="grupo">Hombre<input type="radio" id="mujer" name="grupo">Mujer
+                </form>
+                <div class="ciclo">
+                    <h3>Ciclo</h3>
+                    <select name="Seleccionar Ciclo:" id="ciclo">
+                        <option value="0" selected>Seleccionar Ciclo</option>
+                        <option value="1">I</option>
+                        <option value="2">II</option>
+                        <option value="3">III</option>
+                        <option value="4">IV</option>
+                        <option value="5">V</option>
+                        <option value="6">VI</option>
+                        <option value="7">VII</option>
+                        <option value="8">VIII</option>
+                        <option value="9">IX</option>
+                        <option value="10">X</option>
+                    </select>
+                </div>
+                <div class="ESCUELA">
+                    <h3>Escuela Profesional:</h3>
+                    <select name="Escuela profesional" id="ep">
+                        <option value="0">Seleccionar Escuela</option>
+                        <option value="1">Sistemas</option>
+                        <option value="2">Alimentos</option>
+                        <option value="3">Ambiental</option>
+                        <option value="4">Arquitectura</option>
+                        <option value="5">Civil</option>
+                    </select>
+
+
+
+
+                </div>
+
+                <button id="guardar" onclick="test()">Guardar</button>
+            </div>
+
+
+
+
+
+        </div>
+        <div class="derecha">
+
+
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Nombres</th>
+                        <th>Sexo</th>
+                        <th>Ciclo</th>
+                        <th>Escuela Profesional</th>
+                        <th>Accion</th>
+                    </tr>
+                </thead>
+                <tbody id="tbd"></tbody>
+            </table>
+        </div>
+
+
+    </div>
+</body>
+<script src="js/examen.js"></script>
+
+</html>

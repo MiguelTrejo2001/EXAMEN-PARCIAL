@@ -1,0 +1,91 @@
+.body {
+    padding: 0;
+    margin: 0;
+   
+}
+
+.container {
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    height: 100rem;
+    align-content: center;
+    margin: auto;
+    display: flex;
+}
+
+.izquierda {
+    width: 30%;
+    height: 560px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.derecha {
+    margin-top: 30px;
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+}
+
+#nombre{
+background-color: rgb(243, 236, 236);
+}
+
+.cajaI {
+    color: rgb(0, 0, 0);
+    margin-left: 2rem;
+    margin-top: 2rem;
+    width: 90%;
+    height: 50rem;
+    border: solid rgb(66, 104, 230) 1px;
+    border-radius: 20px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#nombre {
+    width: 50%;
+    height: 2rem;
+    border: solid white 1px;
+    text-align: center;
+}
+
+.leter{
+    color: red;
+}
+
+#guardar {
+    margin-top: 1rem;
+    width: 30%;
+    height: 2rem;
+    border: none;
+    margin-top: 50px;
+    margin-left: 200px;
+    background-color: rgb(65, 63, 141);
+    cursor: pointer;
+    color: white;
+}
+
+#guardar:hover {
+    background-color: brown;
+}
+#table {
+    color: rgb(0, 0, 0);
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+th {
+    border: 1px solid rgb(94, 92, 92);
+    background-color: rgb(111, 214, 245);
+    padding: 5px;
+    width: 7rem;
+    
+}
+td {
+    color: rgb(1, 8, 14);
+    text-align: center;
+    border: solid rgb(0, 0, 0) 1px;
+}
